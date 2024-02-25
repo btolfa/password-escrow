@@ -48,7 +48,7 @@ pub mod password_escrow {
         Ok(())
     }
 
-    pub fn withdraw_fees(ctx: Context<WithdrawFees>) -> Result<()> {
+    pub fn withdraw_fees(_ctx: Context<WithdrawFees>) -> Result<()> {
         Ok(())
     }
 
